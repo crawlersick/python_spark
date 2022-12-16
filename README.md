@@ -12,4 +12,4 @@ SPARK_MASTER_PORT=25130
 
 then go to the sbin
 ./start-master.sh
-./start-worker.sh # spark://127.0.0.1:25130 ? 
+./start-worker.sh spark://127.0.0.1:25130
